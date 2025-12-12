@@ -79,6 +79,11 @@ const handleSearch = () => {
       <NuxtLink to="/profile" class="flex place-content-center">
         <img src="/assets/icons/profile.svg" alt="profile" class="w-6 h-6" />
       </NuxtLink>
+      <a href="/aboutme" class="flex place-content-center font-bold">
+        <div>
+          ABOUT ME
+        </div>
+      </a>
     </div>
 
     <!-- Mobile Menu Button -->
@@ -173,6 +178,9 @@ const handleSearch = () => {
           <NuxtLink to="/login" class="flex place-content-center" @click="closeMenu">
             <img src="/assets/icons/profile.svg" alt="profile" class="w-6 h-6" />
           </NuxtLink>
+          <a href="/aboutme" class="flex place-content-center font-bold">
+            ABOUT ME
+          </a>
         </div>
       </nav>
     </div>
